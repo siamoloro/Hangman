@@ -128,9 +128,9 @@ namespace Game
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(232, 196);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 13);
+            this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Final Score";
+            this.label1.Text = "Word Score";
             // 
             // label2
             // 
