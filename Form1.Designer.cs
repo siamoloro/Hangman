@@ -48,7 +48,7 @@ namespace Game
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(284, 139);
+            this.btnStart.Location = new System.Drawing.Point(290, 167);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 23);
             this.btnStart.TabIndex = 0;
@@ -62,7 +62,7 @@ namespace Game
             this.lblWelcom.BackColor = System.Drawing.Color.GhostWhite;
             this.lblWelcom.Font = new System.Drawing.Font("Script MT Bold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcom.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.lblWelcom.Location = new System.Drawing.Point(317, 20);
+            this.lblWelcom.Location = new System.Drawing.Point(323, 48);
             this.lblWelcom.Name = "lblWelcom";
             this.lblWelcom.Size = new System.Drawing.Size(171, 44);
             this.lblWelcom.TabIndex = 1;
@@ -70,7 +70,7 @@ namespace Game
             // 
             // btnQuit
             // 
-            this.btnQuit.Location = new System.Drawing.Point(442, 139);
+            this.btnQuit.Location = new System.Drawing.Point(448, 167);
             this.btnQuit.Name = "btnQuit";
             this.btnQuit.Size = new System.Drawing.Size(75, 23);
             this.btnQuit.TabIndex = 2;
@@ -83,7 +83,7 @@ namespace Game
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.No;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(334, 86);
+            this.textBox1.Location = new System.Drawing.Point(340, 114);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(139, 24);
@@ -94,7 +94,7 @@ namespace Game
             // 
             this.wrongAttempts.BackColor = System.Drawing.Color.White;
             this.wrongAttempts.FormattingEnabled = true;
-            this.wrongAttempts.Location = new System.Drawing.Point(418, 212);
+            this.wrongAttempts.Location = new System.Drawing.Point(475, 240);
             this.wrongAttempts.Name = "wrongAttempts";
             this.wrongAttempts.Size = new System.Drawing.Size(120, 95);
             this.wrongAttempts.TabIndex = 4;
@@ -102,7 +102,7 @@ namespace Game
             // lblAttempts
             // 
             this.lblAttempts.AutoSize = true;
-            this.lblAttempts.Location = new System.Drawing.Point(572, 103);
+            this.lblAttempts.Location = new System.Drawing.Point(578, 131);
             this.lblAttempts.Name = "lblAttempts";
             this.lblAttempts.Size = new System.Drawing.Size(0, 13);
             this.lblAttempts.TabIndex = 5;
@@ -110,7 +110,7 @@ namespace Game
             // lblWinner
             // 
             this.lblWinner.AutoSize = true;
-            this.lblWinner.Location = new System.Drawing.Point(380, 176);
+            this.lblWinner.Location = new System.Drawing.Point(386, 204);
             this.lblWinner.Name = "lblWinner";
             this.lblWinner.Size = new System.Drawing.Size(0, 13);
             this.lblWinner.TabIndex = 6;
@@ -118,7 +118,7 @@ namespace Game
             // Score
             // 
             this.Score.FormattingEnabled = true;
-            this.Score.Location = new System.Drawing.Point(206, 212);
+            this.Score.Location = new System.Drawing.Point(212, 240);
             this.Score.Name = "Score";
             this.Score.Size = new System.Drawing.Size(120, 95);
             this.Score.TabIndex = 7;
@@ -126,7 +126,7 @@ namespace Game
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(232, 196);
+            this.label1.Location = new System.Drawing.Point(238, 224);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 8;
@@ -135,7 +135,7 @@ namespace Game
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(439, 196);
+            this.label2.Location = new System.Drawing.Point(496, 224);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 13);
             this.label2.TabIndex = 9;
@@ -158,6 +158,10 @@ namespace Game
             this.Controls.Add(this.lblWelcom);
             this.Controls.Add(this.btnStart);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(816, 489);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "Form1";
             this.Text = "Hangman";
             this.Load += new System.EventHandler(this.Form1_Load);
